@@ -1,16 +1,64 @@
-:root{
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #c0c0c0;
-    --botao-azul:#167bf7;
-    --cor-de-fundo:#00030c;
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    text-align: center;
+    padding: 20px;  
+    font-size: 30px;
+    color: yellowgreen;
+    font-family: "Indie Flower", cursive;
+}
+
+.chamada {
+    background: rgb(56, 53, 53);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    font-family: "Playwrite CU", cursive;
 
 }
 
-body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
+h1 {
+    font-size: 25px;
 }
-*{
-    margin: 0%;
-    padding: 0%;
+
+.chamada-texto{
+    margin-right: 5%;
+    padding-left: 3%;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
+
+.filmes-recomendar{
+    display:flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.recomendacao{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.recomendacao img {
+    opacity: 0.6;
+}
+
+.recomendacao img:hover{
+    opacity: 1.0;
+    border: 1px solid wheat;
+}
+
+.recomendacao h2{
+    color: rgb(159, 226, 226);
 }
